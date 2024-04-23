@@ -1,0 +1,54 @@
+{
+    "data": {
+        "123": {
+            "identificacion": "123",
+            "codStudent": "56",
+            "nombreStudent": "aa",
+            "notas": {
+                "parciales": {},
+                "quices": {},
+                "trabajos": {}
+            }
+        },
+        "567": {
+            "identificacion": "567",
+            "codStudent": "023",
+            "nombreStudent": "carlos perez",
+            "notas": {
+                "parciales": {},
+                "quices": {},
+                "trabajos": {}
+            }
+        },
+        "789": {
+            "identificacion": "789",
+            "codStudent": "344",
+            "nombreStudent": "Maria Siza",
+            "notas": {
+                "parciales": {},
+                "quices": {},
+                "trabajos": {}
+            }
+        },
+        "099": {
+            "identificacion": "099",
+            "codStudent": "34",
+            "nombreStudent": "Mario Escalante",
+            "notas": {
+                "parciales": {},
+                "quices": {},
+                "trabajos": {}
+            }
+        },
+        "87888": {
+            "identificacion": "87888",
+            "codStudent": "900",
+            "nombreStudent": "Pepito perez",
+            "notas": {
+                "parciales": {},
+                "quices": {},
+                "trabajos": {}
+            }
+        }
+    }
+}
