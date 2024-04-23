@@ -31,5 +31,19 @@ def NewStudent():
     else:
        uisSt.MenuStudent(0)
 
+def SearchData():
+    criterio = input('Ingrese el Nro Identificacion del estudiante: ')
+    data=gf.campusAcademic.get('data').get(criterio)
+    return data
+    
 
-
+def ModifyData():
+    dataStudent = SearchData()
+    identificacion,codStudent,nombreStudent,notas = dataStudent.values()
+    for key in dataStudent.keys():
+        if (key != 'identificacion' and key != 'notas'):
+            if(bool(input(f'Desea modificar el {key} s(si) o Enter No'))):
+                dataStudent[key] = input(f'Ingrese el nuevo valor para {key} :')
+    gf.campusAcademic.get('data').update({identificacion:dataStudent})
+    cf.UpdateFile(gf.campusAcademic)
+    uisSt.MenuStudent(0)

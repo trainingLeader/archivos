@@ -2,8 +2,8 @@
     "data": {
         "123": {
             "identificacion": "123",
-            "codStudent": "56",
-            "nombreStudent": "aa",
+            "codStudent": "est001",
+            "nombreStudent": "Carlos Marin",
             "notas": {
                 "parciales": {},
                 "quices": {},

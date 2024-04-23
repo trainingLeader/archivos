@@ -25,7 +25,7 @@ def MenuStudent(op : int):
                 case 1:
                     st.NewStudent()
                 case 2:
-                    pass
+                    st.ModifyData()
                 case 3:
                     pass
                 case 4:
